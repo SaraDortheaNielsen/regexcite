@@ -11,7 +11,7 @@
 #' str_split_one(x, pattern = ",")
 #' str_split_one(x, pattern = ",", n = 2)
 #'
-#' y <- "192.168.0.1"
+#' y <- "192.168.0.14"
 #' str_split_one(y, pattern = stringr::fixed("."))
 str_split_one <- function(string, pattern, n = Inf) {
   stopifnot(is.character(string), length(string) <= 1)
